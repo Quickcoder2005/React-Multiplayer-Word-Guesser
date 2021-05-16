@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico?v=2"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="theme-color" content="#000000"/>
+        <meta name="description" content="React Word Guess Game"/>
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-loader/3.3.3/css-loader.css" integrity="sha512-HrLBWHEIRcc9ZemiLhR34DVdkr81NVqhOtT1fIZGdcY5UmC5JzJAEwuj9B/fcNA6huJ3NQ8KV67CmdM/3H2H3g==" crossorigin="anonymous"/>
+        <title> Word Guess </title>
+    </head>
+    <body>
+        <div class="loader loader-bar is-active" data-text="Just a moment..." data-rounded></div>
+        <noscript> You need to enable JavaScript to run this app. </noscript>
+        <div id="root"></div>
+        <script>
+            window.onload = () => {
+                document.querySelector(".loader").remove();
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/Quickcoder2005/Popify@main/script.min.js"></script>
+    </body>
+</html>
