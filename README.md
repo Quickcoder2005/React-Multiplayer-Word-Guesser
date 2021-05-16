@@ -1,1 +1,1 @@
-live @ https://multiwordguess.pages.dev
+live @ https://multiwordguesser.pages.dev
